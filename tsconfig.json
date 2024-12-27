@@ -2,19 +2,17 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
     "types": ["bun-types"],
     "allowJs": true,
-    "strict": true,
-    "noEmit": false,
-    "outDir": "./dist",
-    "skipLibCheck": true,
-    "isolatedModules": true,
-    "lib": ["esnext"],
-    "paths": {
-      "*": ["./src/*"]
-    }
+    "isolatedModules": true
   },
-  "include": ["src/**/*", "benchmark/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["src/index.ts", "src/implementations.ts"],
+  "exclude": ["node_modules", "dist", "benchmark", "**/*.test.ts"]
 }

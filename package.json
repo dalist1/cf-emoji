@@ -1,5 +1,5 @@
 {
-  "name": "countryflag-emoji",
+  "name": "cf-emoji",
   "version": "1.0.0",
   "description": "Ultra-fast country code to flag emoji converter",
   "main": "dist/index.js",

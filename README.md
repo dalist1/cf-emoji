@@ -1,4 +1,4 @@
-# countryflag-emoji
+# cf-emoji
 
 Ultra-fast country code to flag emoji converter, with locale support. Up to 17x faster than alternatives.
 
@@ -17,22 +17,22 @@ Ultra-fast country code to flag emoji converter, with locale support. Up to 17x 
 
 ```bash
 # Using npm
-npm install countryflag-emoji
+npm install cf-emoji
 
 # Using yarn
-yarn add countryflag-emoji
+yarn add cf-emoji
 
 # Using pnpm
-pnpm add countryflag-emoji
+pnpm add cf-emoji
 
 # Using bun
-bun add countryflag-emoji
+bun add cf-emoji
 ```
 
 ## Usage
 
 ```typescript
-import { toFlag } from 'countryflag-emoji';
+import { toFlag } from 'cf-emoji';
 
 // Using country codes
 console.log(toFlag('US')); // 🇺🇸
@@ -51,7 +51,7 @@ console.log(toFlag('en-gb')); // 🇬🇧
 
 ## Performance
 
-Benchmark results comparing `countryflag-emoji` with `country-code-to-flag-emoji`:
+Benchmark results comparing `cf-emoji` with `country-code-to-flag-emoji`:
 
 ```txt
 Benchmark Results:
@@ -76,7 +76,7 @@ Converts a country code or locale code to its corresponding flag emoji.
 
 ```bash
 # Clone the repository
-git clone https://github.com/dalist1/countryflag-emoji.git
+git clone https://github.com/dalist1/cf-emoji.git
 
 # Install dependencies
 bun install

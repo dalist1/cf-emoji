@@ -1,6 +1,6 @@
 {
   "name": "cf-emoji",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ultra-fast country code to flag emoji converter",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,8 +8,7 @@
   "scripts": {
     "build": "tsc",
     "test": "bun test",
-    "bench": "bun benchmark/benchmark.ts",
-    "prepublish": "npm run build"
+    "bench": "bun benchmark/benchmark.ts"
   },
   "keywords": ["country", "flag", "emoji"],
   "author": "Dalist <dalist1>",

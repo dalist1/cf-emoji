@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "types": ["bun-types"],
+    "allowJs": true,
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "lib": ["esnext"],
+    "paths": {
+      "*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "benchmark/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "countryflag-emoji",
+  "version": "1.0.0",
+  "description": "Ultra-fast country code to flag emoji converter",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "bench": "bun benchmark/benchmark.ts"
+  },
+  "keywords": ["country", "flag", "emoji"],
+  "author": "Dalist <dalist1>",
+  "license": "MIT",
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "latest"
+  },
+  "files": ["dist", "LICENSE", "README.md"]
+}

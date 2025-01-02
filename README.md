@@ -1,5 +1,10 @@
 # cf-emoji
 
+[![npm version](https://img.shields.io/npm/v/cf-emoji.svg)](https://www.npmjs.com/package/cf-emoji)
+[![npm downloads](https://img.shields.io/npm/dm/cf-emoji.svg)](https://www.npmjs.com/package/cf-emoji)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/cf-emoji)](https://bundlephobia.com/package/cf-emoji)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Ultra-fast country code to flag emoji converter, with locale support. Up to 17x faster than alternatives.
 
 ## Features

@@ -1,6 +1,6 @@
 {
   "name": "cf-emoji",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ultra-fast country code to flag emoji converter",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -20,9 +20,23 @@
   "keywords": ["country", "flag", "emoji"],
   "author": "Dalist <dalist1>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalist1/cf-emoji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dalist1/cf-emoji/issues"
+  },
+  "homepage": "https://github.com/dalist1/cf-emoji#readme",
   "devDependencies": {
     "bun-types": "latest",
     "typescript": "latest"
   },
-  "files": ["dist", "LICENSE", "README.md"]
+  "files": ["dist", "LICENSE", "README.md"],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
